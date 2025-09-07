@@ -1,4 +1,3 @@
-
 import re
 from .ruspy_dict import RUSPY_DICT
 try:
@@ -19,7 +18,7 @@ def transpile_line(line, dictionary=RUSPY_DICT, user_dict=USER_IDENTIFIERS):
             continue
         if rus.startswith('"__') and rus.endswith('__"'):
             continue
-        line = re.sub(rf'\b{rus}\b', eng, line)
+        line = re.sub(rf'\b{re.escape(rus)}\b', eng, line)
     # Теперь заменяем пользовательские идентификаторы
     for rus, eng in sorted(user_dict.items(), key=lambda x: -len(x[0])):
         line = re.sub(rf'\b{rus}\b', eng, line)

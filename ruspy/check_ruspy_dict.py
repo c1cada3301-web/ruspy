@@ -1,5 +1,8 @@
 import keyword
 import builtins
+import importlib.util
+import sys
+import os
 
 # Получаем все ключевые слова Python
 python_keywords = set(keyword.kwlist)
@@ -28,12 +31,16 @@ common_terms = {
     'UnicodeWarning', 'BytesWarning', 'ResourceWarning'
 }
 
-with open('ruspy_dict.py', encoding='utf-8') as f:
-    ruspy_dict = f.read()
+dict_path = os.path.join(os.path.dirname(__file__), 'ruspy_dict.py')
+spec = importlib.util.spec_from_file_location("ruspy_dict", dict_path)
+ruspy_dict_mod = importlib.util.module_from_spec(spec)
+sys.modules["ruspy_dict"] = ruspy_dict_mod
+spec.loader.exec_module(ruspy_dict_mod)
+ruspy_dict = ruspy_dict_mod.RUSPY_DICT
 
 missing = []
 for word in sorted(python_keywords | python_builtins | common_terms):
-    if f"'{word}'" not in ruspy_dict and f'"{word}"' not in ruspy_dict and f"{word}:" not in ruspy_dict:
+    if word not in ruspy_dict:
         missing.append(word)
 
 print('Слова, которых нет в официальном словаре RUSPY_DICT:')
