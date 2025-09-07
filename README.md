@@ -1,9 +1,10 @@
 
-# Русский Python (ruspy)
+# Русский Python (ruspy-transpiler)
 
 Транспилятор, позволяющий писать Python-код с русскими ключевыми словами, функциями и идентификаторами.
 
-## Установка
+
+Установка
 
 1. Склонируйте репозиторий или скачайте исходный код.
 2. Перейдите в папку проекта и установите пакет локально:
@@ -30,15 +31,17 @@ pip install -e .
 
 ## Использование
 
+
 ### Через CLI
 
 ```bash
-ruspy test_ruspy.py -o test_ruspy_out.py
+ruspy-transpiler test_ruspy.py -o test_ruspy_out.py
 ```
 или
 ```bash
 python -m ruspy.cli test_ruspy.py -o test_ruspy_out.py
 ```
+
 
 ### Как библиотека
 
