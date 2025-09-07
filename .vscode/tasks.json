@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Ruspy Transpile",
+      "type": "shell",
+      "command": "ruspy",
+      "args": [
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}_out.py"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

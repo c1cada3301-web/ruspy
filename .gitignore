@@ -60,7 +60,7 @@ coverage.xml
 .ipynb_checkpoints
 
 # VS Code
-.vscode/
+
 
 # mypy
 .mypy_cache/
@@ -71,3 +71,7 @@ coverage.xml
 
 # pyright
 .pyright/
+
+# tests
+batch_test/
+batch_out/
