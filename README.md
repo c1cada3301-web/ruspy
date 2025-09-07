@@ -211,7 +211,7 @@ MIT License. См. файл [LICENSE](LICENSE).
 
 ## Благодарности
 
-Спасибо всем авторам идей, тестировщикам и вдохновителям! А особенно [@mcodeg](https://t.me/mcodeg), его Tik-Tok: https://www.tiktok.com/@mcodeg_ 
+Спасибо всем авторам идей, тестировщикам и вдохновителям! А особенно [@mcodeg](https://t.me/mcodeg), его Tik-Tok: <https://www.tiktok.com/@mcodeg_> 
 
 ---
 
