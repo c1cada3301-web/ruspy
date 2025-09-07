@@ -25,6 +25,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 ruspy.egg-info/
+ruspy.egg-info/*
 MANIFEST
 
 # Virtual environments
