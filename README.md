@@ -1,3 +1,9 @@
+# Бейджи статуса
+![PyPI](https://img.shields.io/pypi/v/ruspy-transpiler)
+![Build](https://github.com/c1cada3301-web/ruspy/actions/workflows/publish-to-pypi.yml/badge.svg)
+![Coverage](https://img.shields.io/codecov/c/github/c1cada3301-web/ruspy)
+![Lint](https://img.shields.io/badge/lint-passing-brightgreen)
+
 
 # Русский Python (ruspy-transpiler)
 
