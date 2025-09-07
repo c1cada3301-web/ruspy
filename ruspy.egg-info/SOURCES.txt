@@ -1,0 +1,13 @@
+README.md
+setup.py
+ruspy/__init__.py
+ruspy/check_ruspy_dict.py
+ruspy/cli.py
+ruspy/ruspy_dict.py
+ruspy/ruspy_user_dict.py
+ruspy/transpiler.py
+ruspy.egg-info/PKG-INFO
+ruspy.egg-info/SOURCES.txt
+ruspy.egg-info/dependency_links.txt
+ruspy.egg-info/entry_points.txt
+ruspy.egg-info/top_level.txt

@@ -1,0 +1,32 @@
+name: Publish Python 🐍 distribution 📦 to PyPI
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  id-token: write  # Для OIDC
+  contents: read
+
+jobs:
+  build-and-publish:
+    name: Build and publish Python package to PyPI
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi-publish
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install build
+        run: pip install build
+      - name: Build package
+        run: python -m build
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          # OIDC используется автоматически, если secrets не указаны
+          verbose: true
