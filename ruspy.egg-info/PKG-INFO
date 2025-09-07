@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: ruspy
-Version: 0.1.0
-Summary: Транспилятор "русский Python" — пишите код на русском, запускайте на Python!
-Author: Саша Трунов
-Requires-Python: >=3.7
-Dynamic: author
-Dynamic: requires-python
-Dynamic: summary
