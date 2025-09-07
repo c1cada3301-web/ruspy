@@ -1,5 +1,4 @@
-from ruspy.transpiler import transpile_file
-
+# Пример кода на русском Python
 функция приветствие(имя):
     печать('Привет,', имя)
 

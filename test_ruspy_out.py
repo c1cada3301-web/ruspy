@@ -1,5 +1,4 @@
-from ruspy.transpiler import transpile_file
-
+# Пример кода на Python
 def greeting(name):
     print('Hello,', name)
 
