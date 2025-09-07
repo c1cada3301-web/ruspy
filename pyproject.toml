@@ -25,3 +25,4 @@ classifiers = [
 
 [project.scripts]
 ruspy = "ruspy.cli:main"
+ruspy-transpiler = "ruspy.cli:main"
