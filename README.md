@@ -41,7 +41,8 @@ ruspy-transpiler test_ruspy.py -o test_ruspy_out.py
 ```bash
 python -m ruspy.cli test_ruspy.py -o test_ruspy_out.py
 ```
-
+- `test_ruspy.py` — ваш файл с русским синтаксисом.
+- `test_ruspy_out.py` — результат на стандартном Python.
 
 ### Как библиотека
 
