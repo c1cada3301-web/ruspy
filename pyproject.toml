@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ruspy-transpiler"
-version = "0.2.0"
+version = "0.2.1"
 description = "Транспилятор русского Python: пишите код на русском, получайте стандартный Python!"
 authors = [
   { name="Саша Трнуов", email="shtrnv@ya.ru" }
