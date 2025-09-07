@@ -27,6 +27,7 @@ share/python-wheels/
 ruspy.egg-info/
 ruspy.egg-info/*
 MANIFEST
+__pycache__/
 
 # Virtual environments
 venv/
