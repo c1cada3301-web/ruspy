@@ -205,7 +205,7 @@ MIT License. См. файл [LICENSE](LICENSE).
 
 - GitHub Issues: https://github.com/c1cada3301-web/ruspy/issues
 - Email: shtrnv@ya.ru
-- Telegram: [@c1cada_web](https://t.me/c1cada-web)
+- Telegram: [@cicada_web](https://t.me/cicada_web)
 
 ---
 
